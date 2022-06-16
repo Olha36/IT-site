@@ -7,15 +7,20 @@
     src: url(/fonts/Montserrat-SemiBold.ttf);
 }
 body {
-    background-color: red;
     font-family: 'Montserrat';
     font-size: 1em;
+    background-color: white;
 }
 #header {
-    background: url(/img/bgd1.png) no-repeat;
     width: 100vw;
     height: 50vw;
+    background: url(/img/bgd1.png) no-repeat;
     background-size: cover;
+}
+.container {
+    min-width: 360px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .menu-wrapper {
     display: flex;
@@ -24,12 +29,38 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    padding-top: 1.75em;
+    padding-top: 1.5em;
     margin-bottom: 2.5em;
 }
 .menu-link {
     min-width: 150px;
     text-decoration: none;
-    color: white;
     line-height: 2.2em;
+    color: white;
+}
+hr {
+    height: 0.125em;
+    margin: 0;
+    border: none;
+    background-color: #A1A1A1;
+}
+.heading {
+    margin-top: 10.4em;
+    text-align: center;
+    color: white;
+}
+.heading h1 {
+    margin: 0.25em auto 0.93em;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 3em;
+    font-weight: 800;
+}
+button {
+    display: flex;
+    margin: 0 auto;
+    padding: 0.81em 2.25em;
+    border: none;
+    border-radius: 1.87em;
+    background-color: #4985FF;
+    color: white;
 }
