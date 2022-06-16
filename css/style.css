@@ -13,17 +13,22 @@ body {
 }
 #header {
     background: url(/img/bgd1.png) no-repeat;
-    height: 897px;
-    background-size: 94em;
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+}
+.menu-wrapper {
+    display: flex;
+    justify-content: right;
 }
 #menu {
+    display: flex;
+    justify-content: space-between;
     padding-top: 1.75em;
-    width: 40em;
-    margin-left: 44em;
     margin-bottom: 2.5em;
 }
 .menu-link {
-    margin-right: 2.5em;
+    min-width: 150px;
     text-decoration: none;
     color: white;
     line-height: 2.2em;
