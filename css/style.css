@@ -64,3 +64,62 @@ button {
     background-color: #4985FF;
     color: white;
 }
+
+/* section #2 */
+#main {
+    margin-top: 6.87em;
+    text-align: center;
+    color: #323232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+#main h2{
+    margin-bottom: 3em;
+    font-weight: 700;
+    font-size: 2.25em;
+    color: #323232;
+}
+#main p {
+    margin-bottom: 4em;
+    color: #999999;
+}
+.main_tags {
+    display: flex;
+}
+.tags {
+    display: flex;
+    align-items: baseline;
+}
+.pictures {
+    display: flex;
+    text-align: center;
+}
+.circle.internal {
+    width: 5.62em;
+    height: 5.62em;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle.external {
+    width: 6.875em;
+    height: 6.875em;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.text p, h3{
+    width: 58%;
+}
+.text h3 {
+    font-weight: 700;
+    font-size: 1.12em;
+    color: #000000;
+    margin-bottom: 0.75em;
+}
