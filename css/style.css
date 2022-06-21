@@ -279,33 +279,32 @@ button {
     text-align: center;
 }
 .subscribe h4 {
-    font-size: 18px;
-    line-height: 21.94px;
-    margin-bottom: 20px;
+    margin-bottom: 1.11em;
+    line-height: 1.218em;
+    font-size: 1.125em;
 }
 .subscribe p {
     color: #999999;
 }
 .subscribe p:last-child {
-    margin-top: 30px;
-    font-size: 13px;
-    padding-bottom: 85px;
+    padding-bottom: 6.53em;
+    margin-top: 2.3em;
+    font-size: 0.8em;
 }
 input[type="text"] {
-    padding: 15px 33px;
-    border-radius: 25px 0 0 25px;
+    padding: 0.93em 2.062em;
+    border-radius: 1.562em 0 0 1.562em;
     background: #FFFFFF;
-    border: none;
     box-sizing: border-box;
     border: 1px solid rgba(242, 242, 242, 1);
-    width: 299px;
-    height: 45px;
+    width: 18.68em;
+    height: 2.81em;
     box-shadow: 2px 1px 5px 3px rgba(242, 242, 242, 1);
-    margin-top: 30px;
+    margin-top: 1.87em;
 }
 input[type="button"] {
     position: relative;
-    margin-left: -5px;
+    margin-left: -0.31em;
     background: rgba(73, 133, 255, 1);
     padding: 13px 36px 15px 26px;
     border: none;
@@ -330,11 +329,15 @@ section 6 */
     justify-content: space-between;
     padding-top: 70px;
 }
+.contacts p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 22.19px;
+}
 .contacts h5 {
    font-size: 18px;
    line-height: 21.94px;
 }
-.contacts p,
 .links li,
 .platform li,
 .socials li {
@@ -347,6 +350,7 @@ section 6 */
 .phone,
 .address {
     display: flex;
+    margin-top: 30px;
 }
 .info img {
     margin-right: 15px;
