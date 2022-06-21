@@ -373,3 +373,11 @@ section 6 */
     font-size: 13px;
     line-height: 20.6px;
 }
+
+
+@media screen and (max-width: 1400px) {
+    .menu-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
