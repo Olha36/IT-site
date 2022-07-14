@@ -27,8 +27,13 @@ body {
     justify-content: right;
 }
 .hr {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #A1A1A1;
     margin-top: -24.375em;
+}
+.hr2 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 9%;
+    margin-left: 620px;
 }
 #menu {
     display: flex;
@@ -41,9 +46,7 @@ body {
     text-decoration: none;
     line-height: 2.2em;
     color: white;
-}
-.menu-link:first-child {
-    border-bottom: 3px solid blue;
+    text-align: center;
 }
 hr {
     height: 0.125em;
@@ -271,6 +274,8 @@ button {
     font-size: 1em;
     font-weight: 500;
     color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 .play img {
     margin-right: 1.3125em;
