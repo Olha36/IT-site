@@ -18,6 +18,7 @@ body {
     background-size: cover;
 }
 .container {
+    width: 95%;
     min-width: 360px;
     max-width: 1200px;
     margin: 0 auto;
@@ -175,12 +176,14 @@ button {
     padding-top: 6.25em;
 }
 #button {
-    margin: 0;
+   margin-right: 2.5%;
 }
 .products_flex {
     display: flex;
     justify-content: space-around;
     margin-top: 4.375em;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
 .products {
     margin-bottom: 5.31em;
@@ -201,6 +204,7 @@ button {
     font-weight: bold;
     font-size: 2.25em;
     line-height: 1.5em;
+    margin-left: 2.5%;
 }
 .products a {
     color: rgba(73, 133, 255, 1);
@@ -227,7 +231,7 @@ button {
 }
 .examples {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 3.125em;
 }
 
@@ -255,7 +259,8 @@ button {
 .video-wrapper {
     display: flex;
     text-align: center;
-    width: 60.625em;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 26.875em;
     margin: 0 auto;
     background-image: url(../img/video.png);
@@ -331,7 +336,7 @@ section 6 */
 }
 .contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 70px;
 }
 .contacts p {
@@ -380,9 +385,48 @@ section 6 */
 }
 
 
-@media screen and (max-width: 1400px) {
-    .menu-wrapper {
-        display: flex;
+@media screen and (max-width: 1100px) {
+    .container {
+        max-width: 1100px;
+    }
+    .heading {
+        margin-top: 2em;
+    }
+    .products img {
+        width: 90%;
+    }
+    .examples img {
+        width: 20%;
+        height: 20%;
+    }
+    .main_tags {
+        flex-wrap: wrap;
         justify-content: center;
+    }
+    .tags {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text h3 {
+        padding-top: 13px;
+    }
+}
+@media screen and (max-width: 991px) {
+    #main h2 {
+        width: 90%;
+        margin: 0 auto 40px;
+    }
+    .description {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-text {
+        margin: 0;
+    }
+    .products p:first-of-type {
+        font-size: 0.8em;
+    }
+    .products p:last-of-type {
+        font-size: 12px;
     }
 }
