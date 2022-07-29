@@ -500,6 +500,9 @@ input[type="button"] {
     }
 }
 @media screen and (max-width: 575px) {
+    #header {
+        padding-bottom: 16px;
+    }
     #main {
         padding: 1.5em 0;
     }
@@ -525,6 +528,7 @@ input[type="button"] {
     }
     .picture img {
         padding-top: 2.25em;
+        width: 368px;
     }
     .products_flex {
         border-bottom: solid #E0E0E0;
